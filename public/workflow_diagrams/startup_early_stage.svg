@@ -1,0 +1,142 @@
+<svg width="1920" height="800" viewBox="0 0 1920 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="800" fill="#F8F2EE"/>
+<path d="M1306 309.609C1413.9 401.772 1474.68 213.711 1326.68 245.711" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M853.998 358.549C751.201 358.549 803.367 247.37 686.186 247.37" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M1005.3 352.965C1037.5 360.233 1091.21 332.056 1197.85 295.17" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M1592.95 316.91C1662.45 348.217 1742.99 335.866 1781.07 284.185" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M1345.28 243.203C1336.61 215.703 1505 243.5 1534.5 324" stroke="#832E04" stroke-dasharray="9 9"/>
+<path d="M380.401 382.364C405.568 374.697 499.542 389.064 546.184 295.781" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M232.318 367.784C213.652 367.45 170.118 359.684 145.318 331.284" stroke="#832E04" stroke-dasharray="8 8"/>
+
+<!-- Step 1: Foundation Building -->
+<circle cx="303.186" cy="367" r="78" fill="url(#paint1_linear_11_196)"/>
+<!-- Icon: Building Blocks -->
+<g transform="translate(303.186, 367)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <rect x="-15" y="2" width="8" height="12" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="-3" y="-5" width="8" height="19" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="9" y="5" width="8" height="9" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="-15" y="14" width="32" height="3" fill="#832E04" fill-opacity="0.6"/>
+</g>
+<circle cx="303.186" cy="490.5" r="21" fill="url(#paint9_radial_11_196)" stroke="#E15A17"/>
+<text x="303.186" y="496.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">1</text>
+
+<!-- Step 2: Market Validation -->
+<circle cx="617.5" cy="270" r="78" fill="url(#paint10_linear_11_196)"/>
+<!-- Icon: Search/Magnifying Glass -->
+<g transform="translate(617.5, 270)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <circle cx="0" cy="0" r="12" fill="none" stroke="#832E04" stroke-width="3"/>
+  <line x1="8" y1="8" x2="15" y2="15" stroke="#832E04" stroke-width="3"/>
+  <circle cx="0" cy="0" r="2" fill="#832E04"/>
+</g>
+<circle cx="617.5" cy="393.5" r="21" fill="url(#paint21_radial_11_196)" stroke="#E15A17"/>
+<text x="617.5" y="399.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">2</text>
+
+<!-- Step 3: Initial Outreach -->
+<circle cx="945.5" cy="367" r="78" fill="url(#paint22_linear_11_196)"/>
+<!-- Icon: Envelope/Message -->
+<g transform="translate(945.5, 367)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <rect x="-18" y="-10" width="36" height="20" rx="3" fill="none" stroke="#832E04" stroke-width="3"/>
+  <path d="M-18 -10 L0 2 L18 -10" stroke="#832E04" stroke-width="3" fill="none"/>
+  <rect x="-15" y="-6" width="30" height="16" fill="#832E04" fill-opacity="0.6"/>
+  <path d="M-10 2 L0 8 L10 2" stroke="white" stroke-width="2" fill="none"/>
+</g>
+<circle cx="945.5" cy="490.5" r="21" fill="url(#paint29_radial_11_196)" stroke="#E15A17"/>
+<text x="945.5" y="496.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">3</text>
+
+<!-- Step 4: Early Engagement -->
+<circle cx="1273.5" cy="270" r="78" fill="url(#paint30_linear_11_196)"/>
+<!-- Icon: Mountain Range/Peaks -->
+<g transform="translate(1273.5, 270)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <path d="M-15 6 L-10 -1 L-6 3 L-3 -4 L0 -1 L3 -6 L6 -2 L10 1 L15 6 Z" fill="#832E04"/>
+</g>
+<circle cx="1273.5" cy="393.5" r="21" fill="url(#paint37_radial_11_196)" stroke="#E15A17"/>
+<text x="1273.5" y="399.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">4</text>
+
+<!-- Step 5: Growth Foundation -->
+<circle cx="1601.5" cy="367" r="78" fill="url(#paint38_linear_11_196)"/>
+<!-- Icon: Trident/Plant Growth -->
+<g transform="translate(1601.5, 367)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <line x1="0" y1="8" x2="0" y2="-8" stroke="#832E04" stroke-width="4"/>
+  <line x1="-10" y1="-3" x2="0" y2="-8" stroke="#832E04" stroke-width="4"/>
+  <line x1="10" y1="-3" x2="0" y2="-8" stroke="#832E04" stroke-width="4"/>
+  <circle cx="-10" cy="-3" r="3" fill="#832E04"/>
+  <circle cx="10" cy="-3" r="3" fill="#832E04"/>
+  <circle cx="0" cy="-8" r="3" fill="#832E04"/>
+</g>
+<circle cx="1601.5" cy="490.5" r="21" fill="url(#paint45_radial_11_196)" stroke="#E15A17"/>
+<text x="1601.5" y="496.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">5</text>
+
+<!-- Step Titles and Descriptions -->
+<!-- Step 1 -->
+<text x="303.186" y="540" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Foundation Building</text>
+<text x="303.186" y="560" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Establish core messaging and basic market positioning.</text>
+
+<!-- Step 2 -->
+<text x="617.5" y="440" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Market Validation</text>
+<text x="617.5" y="460" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Validate product-market fit and identify early adopters.</text>
+
+<!-- Step 3 -->
+<text x="945.5" y="540" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Initial Outreach</text>
+<text x="945.5" y="560" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Launch targeted campaigns to build initial awareness.</text>
+
+<!-- Step 4 -->
+<text x="1273.5" y="440" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Early Engagement</text>
+<text x="1273.5" y="460" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Nurture early relationships and gather feedback.</text>
+
+<!-- Step 5 -->
+<text x="1601.5" y="540" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Growth Foundation</text>
+<text x="1601.5" y="560" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Build scalable processes for sustainable growth.</text>
+
+<defs>
+<linearGradient id="paint1_linear_11_196" x1="225.186" y1="290" x2="381.186" y2="444" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint9_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(303 490) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint10_linear_11_196" x1="539.5" y1="192" x2="695.5" y2="348" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint21_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(617 393) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint22_linear_11_196" x1="867.5" y1="289" x2="1023.5" y2="445" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint29_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(945 490) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint30_linear_11_196" x1="1195.5" y1="192" x2="1351.5" y2="348" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint37_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1273 393) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint38_linear_11_196" x1="1523.5" y1="289" x2="1679.5" y2="445" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint45_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1601 490) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+</defs>
+</svg>

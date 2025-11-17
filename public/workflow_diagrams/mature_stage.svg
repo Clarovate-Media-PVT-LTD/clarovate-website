@@ -1,0 +1,161 @@
+<svg width="1920" height="800" viewBox="0 0 1920 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="800" fill="#F8F2EE"/>
+<path d="M1306 309.609C1413.9 401.772 1474.68 213.711 1326.68 245.711" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M853.998 358.549C751.201 358.549 803.367 247.37 686.186 247.37" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M1005.3 352.965C1037.5 360.233 1091.21 332.056 1197.85 295.17" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M1592.95 316.91C1662.45 348.217 1742.99 335.866 1781.07 284.185" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M1345.28 243.203C1336.61 215.703 1505 243.5 1534.5 324" stroke="#832E04" stroke-dasharray="9 9"/>
+<path d="M380.401 382.364C405.568 374.697 499.542 389.064 546.184 295.781" stroke="#832E04" stroke-dasharray="8 8"/>
+<path d="M232.318 367.784C213.652 367.45 170.118 359.684 145.318 331.284" stroke="#832E04" stroke-dasharray="8 8"/>
+
+<!-- Step 1: Market Leadership -->
+<circle cx="303.186" cy="367" r="78" fill="url(#paint1_linear_11_196)"/>
+<!-- Icon: Crown/Leadership -->
+<g transform="translate(303.186, 367)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <path d="M-15 2 L-12 -8 L-9 0 L-6 -5 L-3 0 L0 -8 L3 0 L6 -5 L9 0 L12 -8 L15 2 L12 5 L-12 5 Z" fill="#832E04"/>
+  <circle cx="-9" cy="-2" r="2" fill="white"/>
+  <circle cx="0" cy="-4" r="2" fill="white"/>
+  <circle cx="9" cy="-2" r="2" fill="white"/>
+</g>
+<circle cx="303.186" cy="490.5" r="21" fill="url(#paint9_radial_11_196)" stroke="#E15A17"/>
+<text x="303.186" y="496.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">1</text>
+
+<!-- Step 2: Advanced Analytics -->
+<circle cx="617.5" cy="270" r="78" fill="url(#paint10_linear_11_196)"/>
+<!-- Icon: Dashboard/Analytics -->
+<g transform="translate(617.5, 270)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <rect x="-15" y="-8" width="8" height="6" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="-3" y="-8" width="8" height="6" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="9" y="-8" width="8" height="6" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="-15" y="2" width="20" height="12" fill="#832E04" fill-opacity="0.6"/>
+  <rect x="7" y="2" width="12" height="12" fill="#832E04" fill-opacity="0.6"/>
+  <circle cx="-10" cy="8" r="1" fill="white"/>
+  <circle cx="-2" cy="8" r="1" fill="white"/>
+  <circle cx="6" cy="8" r="1" fill="white"/>
+  <circle cx="14" cy="8" r="1" fill="white"/>
+</g>
+<circle cx="617.5" cy="393.5" r="21" fill="url(#paint21_radial_11_196)" stroke="#E15A17"/>
+<text x="617.5" y="399.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">2</text>
+
+<!-- Step 3: Enterprise Integration -->
+<circle cx="945.5" cy="367" r="78" fill="url(#paint22_linear_11_196)"/>
+<!-- Icon: Network/Integration -->
+<g transform="translate(945.5, 367)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <circle cx="-12" cy="-8" r="5" fill="#832E04"/>
+  <circle cx="12" cy="-8" r="5" fill="#832E04"/>
+  <circle cx="-12" cy="8" r="5" fill="#832E04"/>
+  <circle cx="12" cy="8" r="5" fill="#832E04"/>
+  <circle cx="0" cy="0" r="6" fill="#832E04"/>
+  <line x1="-7" y1="-3" x2="-6" y2="-2" stroke="white" stroke-width="2"/>
+  <line x1="7" y1="-3" x2="6" y2="-2" stroke="white" stroke-width="2"/>
+  <line x1="-7" y1="3" x2="-6" y2="2" stroke="white" stroke-width="2"/>
+  <line x1="7" y1="3" x2="6" y2="2" stroke="white" stroke-width="2"/>
+</g>
+<circle cx="945.5" cy="490.5" r="21" fill="url(#paint29_radial_11_196)" stroke="#E15A17"/>
+<text x="945.5" y="496.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">3</text>
+
+<!-- Step 4: Global Expansion -->
+<circle cx="1273.5" cy="270" r="78" fill="url(#paint30_linear_11_196)"/>
+<!-- Icon: Globe/World -->
+<g transform="translate(1273.5, 270)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <circle cx="0" cy="0" r="12" fill="none" stroke="#832E04" stroke-width="3"/>
+  <path d="M-12 0 Q0 -8 12 0" stroke="#832E04" stroke-width="2" fill="none"/>
+  <path d="M-12 0 Q0 8 12 0" stroke="#832E04" stroke-width="2" fill="none"/>
+  <line x1="-12" y1="0" x2="12" y2="0" stroke="#832E04" stroke-width="2"/>
+  <line x1="0" y1="-12" x2="0" y2="12" stroke="#832E04" stroke-width="2"/>
+  <circle cx="-6" cy="-4" r="1" fill="#832E04"/>
+  <circle cx="6" cy="4" r="1" fill="#832E04"/>
+  <circle cx="4" cy="-6" r="1" fill="#832E04"/>
+</g>
+<circle cx="1273.5" cy="393.5" r="21" fill="url(#paint37_radial_11_196)" stroke="#E15A17"/>
+<text x="1273.5" y="399.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">4</text>
+
+<!-- Step 5: Innovation Leadership -->
+<circle cx="1601.5" cy="367" r="78" fill="url(#paint38_linear_11_196)"/>
+<!-- Icon: Lightbulb/Innovation -->
+<g transform="translate(1601.5, 367)">
+  <rect x="-25" y="-20" width="50" height="40" rx="4" fill="white" stroke="#832E04" stroke-width="3"/>
+  <rect x="-20" y="-15" width="40" height="30" rx="2" fill="#832E04" fill-opacity="0.1"/>
+  <ellipse cx="0" cy="-2" rx="10" ry="12" fill="#832E04"/>
+  <rect x="-2" y="10" width="4" height="5" fill="#832E04"/>
+  <rect x="-6" y="15" width="12" height="2" rx="1" fill="#832E04"/>
+  <path d="M-6 12 Q-3 15 0 12 Q3 15 6 12" stroke="#832E04" stroke-width="2" fill="none"/>
+  <circle cx="-4" cy="-5" r="1" fill="white"/>
+  <circle cx="4" cy="-5" r="1" fill="white"/>
+  <circle cx="0" cy="-8" r="1" fill="white"/>
+</g>
+<circle cx="1601.5" cy="490.5" r="21" fill="url(#paint45_radial_11_196)" stroke="#E15A17"/>
+<text x="1601.5" y="496.5" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">5</text>
+
+<!-- Step Titles and Descriptions -->
+<!-- Step 1 -->
+<text x="303.186" y="540" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Market Leadership</text>
+<text x="303.186" y="560" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Establish thought leadership and market dominance.</text>
+
+<!-- Step 2 -->
+<text x="617.5" y="440" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Advanced Analytics</text>
+<text x="617.5" y="460" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Leverage sophisticated data insights for strategic decisions.</text>
+
+<!-- Step 3 -->
+<text x="945.5" y="540" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Enterprise Integration</text>
+<text x="945.5" y="560" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Integrate with enterprise systems and complex workflows.</text>
+
+<!-- Step 4 -->
+<text x="1273.5" y="440" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Global Expansion</text>
+<text x="1273.5" y="460" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Scale operations across multiple markets and regions.</text>
+
+<!-- Step 5 -->
+<text x="1601.5" y="540" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Innovation Leadership</text>
+<text x="1601.5" y="560" text-anchor="middle" fill="#832E04" font-family="Arial, sans-serif" font-size="14">Drive innovation and set industry standards.</text>
+
+<defs>
+<linearGradient id="paint1_linear_11_196" x1="225.186" y1="290" x2="381.186" y2="444" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint9_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(303 490) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint10_linear_11_196" x1="539.5" y1="192" x2="695.5" y2="348" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint21_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(617 393) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint22_linear_11_196" x1="867.5" y1="289" x2="1023.5" y2="445" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint29_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(945 490) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint30_linear_11_196" x1="1195.5" y1="192" x2="1351.5" y2="348" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint37_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1273 393) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+<linearGradient id="paint38_linear_11_196" x1="1523.5" y1="289" x2="1679.5" y2="445" gradientUnits="userSpaceOnUse">
+<stop stop-color="#832E04"/>
+<stop offset="1" stop-color="#ECD947"/>
+</linearGradient>
+<linearGradient id="paint45_radial_11_196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1601 490) rotate(90) scale(21.5)">
+<stop stop-color="#B23C01"/>
+<stop offset="1" stop-color="#832E04"/>
+</linearGradient>
+</defs>
+</svg>
