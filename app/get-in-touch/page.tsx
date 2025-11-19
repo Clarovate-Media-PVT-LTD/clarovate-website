@@ -41,7 +41,7 @@ export default function GetInTouch() {
               Ready to fix your pipeline gap?
             </p>
             <h2 className="text-2xl font-bold md:text-3xl">
-              Let's design a campaign that your revenue team will trust.
+              Let&apos;s design a campaign that your revenue team will trust.
             </h2>
             <p className="text-base leading-relaxed text-gray-800">
               We know cybersecurity marketing. Clarovate helps B2B defenders cut

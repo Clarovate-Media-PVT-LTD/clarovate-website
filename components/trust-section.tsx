@@ -7,6 +7,7 @@ import {
   CarouselItem,
   type CarouselApi,
 } from '@/components/ui/carousel';
+import Image from 'next/image';
 
 function CompanyLogosCarousel() {
   const [api, setApi] = React.useState<CarouselApi>();
@@ -46,10 +47,12 @@ function CompanyLogosCarousel() {
             key={index}
             className="pl-2 md:pl-4 basis-1/2 md:basis-1/3 lg:basis-1/6"
           >
-            <div className="flex items-center justify-center h-20 md:h-24 lg:h-28 transform hover:scale-110 transition-all duration-300 cursor-pointer">
-              <img
+            <div className="relative flex items-center justify-center h-20 md:h-24 lg:h-28 w-full transform hover:scale-110 transition-all duration-300 cursor-pointer">
+              <Image
                 src={logo.src}
                 alt={logo.alt}
+                width={128}
+                height={64}
                 className="h-8 md:h-12 lg:h-16 object-contain max-w-full"
               />
             </div>
@@ -79,9 +82,11 @@ export default function TrustSection() {
             data-aos="zoom-in"
             data-aos-delay="100"
           >
-            <img
+            <Image
               src="/iso_600.png"
               alt="ISO 27001 Certified"
+              width={160}
+              height={160}
               className="w-full h-full object-contain"
             />
           </div>
@@ -92,9 +97,11 @@ export default function TrustSection() {
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-            <img
+            <Image
               src="/soc2_600 - Copy (2).png"
               alt="SOC 2 Certified"
+              width={224}
+              height={224}
               className="w-full h-full object-contain"
             />
           </div>

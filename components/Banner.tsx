@@ -38,9 +38,10 @@ export default function Banner() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <strong className="text-2xl text-fire-700">Stop guessing</strong> what works.{' '}
-          <strong className="text-2xl text-fire-700">Start turning</strong> data and intent
-          into qualified pipeline that proves <br /> ROI every month.
+          <strong className="text-2xl text-fire-700">Stop guessing</strong> what
+          works.{' '}
+          <strong className="text-2xl text-fire-700">Start turning</strong> data
+          and intent into qualified pipeline that proves <br /> ROI every month.
         </p>
 
         {/* Supporting Text */}

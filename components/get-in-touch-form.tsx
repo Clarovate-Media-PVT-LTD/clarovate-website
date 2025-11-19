@@ -49,8 +49,8 @@ export function GetInTouchForm() {
             Thank you for reaching out!
           </h3>
           <p className="text-base leading-relaxed text-gray-700">
-            Your message has been submitted successfully. We'll get back to you
-            soon. Redirecting to homepage...
+            Your message has been submitted successfully. We&apos;ll get back to
+            you soon. Redirecting to homepage...
           </p>
         </div>
       </div>
