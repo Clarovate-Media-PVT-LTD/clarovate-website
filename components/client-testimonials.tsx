@@ -8,6 +8,7 @@ import {
   type CarouselApi,
 } from '@/components/ui/carousel';
 import { Quote } from 'lucide-react';
+import Image from 'next/image';
 
 export default function ClientTestimonials() {
   const [api, setApi] = useState<CarouselApi>();
@@ -71,11 +72,12 @@ export default function ClientTestimonials() {
               <CarouselItem key={index}>
                 <div className="flex flex-col md:flex-row items-stretch justify-center gap-6 md:gap-0 px-4 md:px-0">
                   <div className="flex justify-center md:justify-end">
-                    <div className="rounded-tl-3xl rounded-bl-3xl overflow-hidden border-4 border-fire-200 md:border-r-0">
-                      <img
+                    <div className="rounded-tl-3xl rounded-bl-3xl overflow-hidden border-4 border-fire-200 md:border-r-0 relative w-72 h-72 md:w-[280px] md:h-[320px]">
+                      <Image
                         src={testimonial.image}
                         alt={testimonial.name}
-                        className="w-72 h-72 md:w-[280px] md:h-[320px] object-cover"
+                        fill
+                        className="object-cover"
                       />
                     </div>
                   </div>
