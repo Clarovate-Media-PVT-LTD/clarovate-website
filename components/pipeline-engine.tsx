@@ -1,12 +1,9 @@
-import React from "react";
-import { Database, PlayCircle, LineChart } from "lucide-react";
+import React from 'react';
+import { Database, PlayCircle, LineChart } from 'lucide-react';
 
 export default function PipelineEngine() {
   return (
-    <section
-      className="bg-white py-16 md:py-20 lg:py-24"
-      data-aos="fade-up"
-    >
+    <section className="bg-white py-16 md:py-20 lg:py-24" data-aos="fade-up">
       <div className="w-container max-w-auto mx-auto px-4 md:px-6 lg:px-8">
         {/* Main Headline */}
         <div
@@ -39,9 +36,9 @@ export default function PipelineEngine() {
         >
           <p className="text-base md:text-lg lg:text-l text-gray-700 leading-relaxed">
             We help cybersecurity marketing teams move from cold noise to
-            predictable growth. No random leads. No wasted spend. Just measurable outcomes that tie every dollar to your bottom line.
+            predictable growth. No random leads. No wasted spend. Just
+            measurable outcomes that tie every dollar to your bottom line.
           </p>
-          
         </div>
 
         {/* Three-Step Workflow Diagram */}
@@ -64,7 +61,10 @@ export default function PipelineEngine() {
                   <div className="absolute -top-2 -right-2 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center text-fire-800 font-bold text-base md:text-lg shadow-lg border-2 border-fire-800 z-20">
                     1
                   </div>
-                  <Database className="w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 text-white" strokeWidth={2.25} />
+                  <Database
+                    className="w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 text-white"
+                    strokeWidth={2.25}
+                  />
                 </div>
               </div>
 
@@ -92,7 +92,10 @@ export default function PipelineEngine() {
                   <div className="absolute -top-2 -right-2 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center text-fire-800 font-bold text-base md:text-lg shadow-lg border-2 border-fire-800 z-20">
                     2
                   </div>
-                  <PlayCircle className="w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 text-white" strokeWidth={2.25} />
+                  <PlayCircle
+                    className="w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 text-white"
+                    strokeWidth={2.25}
+                  />
                 </div>
               </div>
 
@@ -120,7 +123,10 @@ export default function PipelineEngine() {
                   <div className="absolute -top-2 -right-2 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center text-fire-800 font-bold text-base md:text-lg shadow-lg border-2 border-fire-800 z-20">
                     3
                   </div>
-                  <LineChart className="w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 text-white" strokeWidth={2.25} />
+                  <LineChart
+                    className="w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 text-white"
+                    strokeWidth={2.25}
+                  />
                 </div>
               </div>
 
