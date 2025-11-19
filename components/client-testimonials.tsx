@@ -70,9 +70,9 @@ export default function ClientTestimonials() {
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index}>
-                <div className="flex flex-col md:flex-row items-stretch justify-center gap-6 md:gap-0 px-4 md:px-0">
+                <div className="flex flex-col md:flex-row items-stretch justify-center gap-0 px-4 md:px-0">
                   <div className="flex justify-center md:justify-end">
-                    <div className="rounded-tl-3xl rounded-bl-3xl overflow-hidden border-4 border-fire-200 md:border-r-0 relative w-72 h-72 md:w-[280px] md:h-[320px]">
+                    <div className="rounded-t-3xl md:rounded-tl-3xl md:rounded-bl-3xl md:rounded-tr-none md:rounded-br-none overflow-hidden border-t-4 border-l-4 border-r-4 border-b-4 border-fire-200 md:border-r-0 relative w-full md:w-[280px] h-72 md:h-[320px]">
                       <Image
                         src={testimonial.image}
                         alt={testimonial.name}
@@ -82,8 +82,8 @@ export default function ClientTestimonials() {
                     </div>
                   </div>
 
-                  <div className="flex-1 max-w-2xl w-full border-fire-200 ">
-                    <div className="relative h-full bg-gradient-to-l from-fire-800 to-fire-700 text-white border-4 rounded-tr-3xl rounded-br-3xl border-fire-200 p-8 md:p-10 overflow-hidden flex flex-col justify-between">
+                  <div className="flex-1 max-w-2xl w-full">
+                    <div className="relative h-full bg-gradient-to-l from-fire-800 to-fire-700 text-white border-4 border-fire-200 md:border-l-0 rounded-b-3xl md:rounded-tr-3xl md:rounded-br-3xl md:rounded-tl-none md:rounded-bl-none p-8 md:p-10 overflow-hidden flex flex-col justify-between">
                       <Quote className="absolute top-8 right-8 w-20 h-20 text-fire-300/20" />
                       <p className="text-lg md:text-xl lg:text-2xl font-semibold leading-relaxed pr-6">
                         {testimonial.quote}
