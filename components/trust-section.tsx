@@ -65,19 +65,23 @@ function CompanyLogosCarousel() {
 
 export default function TrustSection() {
   return (
-    <section className="bg-white py-12 md:py-16 lg:py-10" data-aos="fade-up">
+    <section
+      className="bg-white py-12 md:py-16 lg:py-10"
+      data-aos="fade-up"
+      aria-labelledby="trust-heading"
+    >
       <div className="w-container max-w-auto mx-auto px-4 md:px-6 lg:px-2">
-        {/* Top Section - Placeholder Text */}
-        <div className="flex flex-col items-center text-center mb-6 md:mb-0 mr-4">
+        <header className="flex flex-col items-center text-center mb-6 md:mb-0 mr-4">
           <p className="text-fire-800 text-base md:text-xl font-bold max-w-auto mx-auto">
             Certified for Security & Compliance
           </p>
-        </div>
+        </header>
 
-        {/* Trust Badges */}
-        <div className="flex justify-center items-center gap-6 md:gap-2 mb-8 md:mb-2 ml-4 flex-wrap text-center">
-          {/* ISO 27001 Badge */}
-          <div
+        <section
+          aria-label="Security certifications"
+          className="flex justify-center items-center gap-6 md:gap-2 mb-8 md:mb-2 ml-4 flex-wrap text-center"
+        >
+          <figure
             className="relative w-32 h-32 md:w-40 md:h-40 transform hover:scale-110 transition-all duration-300 cursor-pointer"
             data-aos="zoom-in"
             data-aos-delay="100"
@@ -89,10 +93,9 @@ export default function TrustSection() {
               height={160}
               className="w-full h-full object-contain"
             />
-          </div>
+          </figure>
 
-          {/* SOC 2 Badge */}
-          <div
+          <figure
             className="relative w-32 h-32 md:w-56 md:h-56 transform hover:scale-110 transition-all duration-300 cursor-pointer"
             data-aos="zoom-in"
             data-aos-delay="200"
@@ -104,24 +107,30 @@ export default function TrustSection() {
               height={224}
               className="w-full h-full object-contain"
             />
-          </div>
-        </div>
+          </figure>
+        </section>
 
-        {/* Trusted By Headline */}
-        <div
+        <header
           className="text-center mb-8 md:mb-12"
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-fire-800">
+          <h2
+            id="trust-heading"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-fire-800"
+          >
             Trusted by global cybersecurity leaders
           </h2>
-        </div>
+        </header>
 
-        {/* Company Logos Carousel */}
-        <div className="mb-12 md:mb-16" data-aos="fade-up" data-aos-delay="400">
+        <section
+          aria-label="Companies that trust Clarovate"
+          className="mb-12 md:mb-16"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
           <CompanyLogosCarousel />
-        </div>
+        </section>
       </div>
     </section>
   );

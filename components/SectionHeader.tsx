@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function SectionHeader(): JSX.Element {
   return (
-    <header className="bg-[#FFF1C2] border-b border-[#E0B864] py-4">
+    <header className="bg-fire-100 border-b border-fire-200 py-4">
       <div className="mx-auto flex w-11/12 items-center justify-between">
         <Link
           href="/"
