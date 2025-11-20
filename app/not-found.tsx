@@ -14,36 +14,26 @@ export const metadata: Metadata = {
 
 export default function NotFound(): JSX.Element {
   return (
-    <main>
-      <SectionHeader />
-      <div
-        style={{
-          padding: '4rem 2rem',
-          maxWidth: '1200px',
-          margin: '0 auto',
-          textAlign: 'center',
-        }}
-      >
-        <h1 style={{ fontSize: '4rem', marginBottom: '1rem' }}>404</h1>
-        <h2 style={{ marginBottom: '1rem' }}>Page Not Found</h2>
-        <p style={{ marginBottom: '2rem', color: '#666' }}>
-          The page you are looking for does not exist.
+    <div className="min-h-screen bg-fire-50 text-fire-900">
+      <header>
+        <SectionHeader />
+      </header>
+      <main className="mx-auto flex max-w-4xl flex-col items-center px-6 py-20 text-center">
+        <h1 className="text-6xl font-bold text-fire-800">404</h1>
+        <h2 className="mt-4 text-2xl font-semibold">Page not found</h2>
+        <p className="mt-4 text-base text-gray-700">
+          The page you are looking for does not exist or may have been moved.
         </p>
         <Link
           href="/"
-          style={{
-            display: 'inline-block',
-            padding: '0.75rem 1.5rem',
-            background: '#0070f3',
-            color: 'white',
-            borderRadius: '4px',
-            textDecoration: 'none',
-          }}
+          className="mt-8 inline-flex items-center rounded-xl bg-fire-800 px-6 py-3 text-base font-semibold text-white transition hover:bg-fire-900"
         >
-          Return Home
+          Return home
         </Link>
-      </div>
-      <Footer />
-    </main>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   );
 }

@@ -56,21 +56,32 @@ export default function ClientTestimonials() {
   }, [api]);
 
   return (
-    <section className="bg-fire-50 py-12 md:py-16 lg:py-20">
+    <section
+      className="bg-fire-50 py-12 md:py-16 lg:py-20"
+      aria-labelledby="testimonials-heading"
+    >
       <div className="max-w-auto mx-auto px-4 md:px-6 lg:px-8">
-        {/* Headline */}
-        <div className="text-center mb-12 md:mb-16" data-aos="fade-up">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-fire-800 leading-tight">
+        <header className="text-center mb-12 md:mb-16" data-aos="fade-up">
+          <h2
+            id="testimonials-heading"
+            className="text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-fire-800 leading-tight"
+          >
             What our clients say about Clarovate
           </h2>
-        </div>
+        </header>
 
-        {/* Carousel */}
-        <Carousel setApi={setApi} className="w-full">
+        <Carousel
+          setApi={setApi}
+          className="w-full"
+          aria-label="Client testimonials carousel"
+        >
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index}>
-                <div className="flex flex-col md:flex-row items-stretch justify-center gap-0 px-4 md:px-0">
+                <article
+                  className="flex flex-col md:flex-row items-stretch justify-center gap-0 px-4 md:px-0"
+                  aria-label={`Testimonial from ${testimonial.name}`}
+                >
                   <div className="flex justify-center md:justify-end">
                     <div className="rounded-t-3xl md:rounded-tl-3xl md:rounded-bl-3xl md:rounded-tr-none md:rounded-br-none overflow-hidden border-t-4 border-l-4 border-r-4 border-b-4 border-fire-200 md:border-r-0 relative w-full md:w-[280px] h-72 md:h-[320px]">
                       <Image
@@ -98,7 +109,7 @@ export default function ClientTestimonials() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
               </CarouselItem>
             ))}
           </CarouselContent>
@@ -113,8 +124,8 @@ export default function ClientTestimonials() {
                 onClick={() => api?.scrollTo(index)}
                 className={`h-2.5 w-2.5 rounded-full transition-all duration-300 ${
                   current === index
-                    ? 'bg-[#C24A07] scale-110'
-                    : 'bg-[#F6C443] hover:bg-[#F2B21D]'
+                    ? 'bg-fire-900 scale-110'
+                    : 'bg-fire-300 hover:bg-fire-400'
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
               />

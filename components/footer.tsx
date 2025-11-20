@@ -29,7 +29,7 @@ export default function Footer() {
                 className="hover:opacity-80 transition-opacity"
               >
                 <Linkedin
-                  className="h-7 w-7 text-[#F8F6EB]"
+                  className="h-7 w-7 text-fire-50"
                   strokeWidth={1.3}
                   aria-hidden="true"
                 />
@@ -40,7 +40,7 @@ export default function Footer() {
                 className="hover:opacity-80 transition-opacity"
               >
                 <Mail
-                  className="h-8 w-8 text-[#F8F6EB]"
+                  className="h-8 w-8 text-fire-50"
                   strokeWidth={1.8}
                   aria-hidden="true"
                 />

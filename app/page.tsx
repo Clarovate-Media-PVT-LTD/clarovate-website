@@ -40,21 +40,27 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="max-w-full mx-auto">
-      <SectionHeader />
-      <Banner />
-      <div className="border-t border-fire-200"></div>
-      <TrustSection />
-      <TrustInsights />
-      <PipelineEngine />
-      <div className="border-t border-fire-200"></div>
-      <WhyChooseClarovate />
-      <div className="border-t border-fire-200"></div>
-      <DemandGeneration />
-      <div className="border-t border-fire-200"></div>
-      <ClientTestimonials />
-      <div className="border-t border-fire-200"></div>
-      <CtaSession />
-      <Footer />
+      <header>
+        <SectionHeader />
+      </header>
+      <main>
+        <Banner />
+        <hr className="border-t border-fire-200" />
+        <TrustSection />
+        <TrustInsights />
+        <PipelineEngine />
+        <hr className="border-t border-fire-200" />
+        <WhyChooseClarovate />
+        <hr className="border-t border-fire-200" />
+        <DemandGeneration />
+        <hr className="border-t border-fire-200" />
+        <ClientTestimonials />
+        <hr className="border-t border-fire-200" />
+        <CtaSession />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
