@@ -18,25 +18,26 @@ export const metadata: Metadata = {
 export default function GetInTouch() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FDF4DB] via-[#FFF7E9] to-white text-fire-900">
-      <SectionHeader />
-
-      <section className="bg-gradient-to-b from-[#431601] via-[#602406] to-[#7A320B] text-white">
-        <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-16 text-center md:py-20">
-          <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">
-            Get in touch with our team
-          </h1>
-          <p className="mx-auto max-w-2xl text-base leading-relaxed text-white/80 md:text-lg">
-            Our cybersecurity marketing specialists would be more than happy to
-            learn about your growth goals, share playbooks that work in the real
-            world, and map a path to predictable pipeline. Tell us where you are
-            stuck—we will help you move forward.
-          </p>
-        </div>
-      </section>
+      <header>
+        <SectionHeader />
+        <section className="bg-gradient-to-b from-[#431601] via-[#602406] to-[#7A320B] text-white">
+          <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-16 text-center md:py-20">
+            <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl">
+              Get in touch with our team
+            </h1>
+            <p className="mx-auto max-w-2xl text-base leading-relaxed text-white/80 md:text-lg">
+              Our cybersecurity marketing specialists would be more than happy
+              to learn about your growth goals, share playbooks that work in the
+              real world, and map a path to predictable pipeline. Tell us where
+              you are stuck—we will help you move forward.
+            </p>
+          </div>
+        </section>
+      </header>
 
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <div className="grid gap-10 rounded-[36px] border border-fire-100 bg-white/90 p-8 shadow-[0_25px_60px_-25px_rgba(131,46,4,0.3)] lg:grid-cols-[1fr_1.1fr] lg:p-12">
-          <div className="space-y-6">
+        <section className="grid gap-10 rounded-[36px] border border-fire-100 bg-white/90 p-8 shadow-[0_25px_60px_-25px_rgba(131,46,4,0.3)] lg:grid-cols-[1fr_1.1fr] lg:p-12">
+          <article className="space-y-6">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-fire-700">
               Ready to fix your pipeline gap?
             </p>
@@ -50,9 +51,9 @@ export default function GetInTouch() {
               activation moves that build predictable demand.
             </p>
             <div className="grid gap-4 text-sm text-gray-700">
-              <div className="rounded-2xl border border-fire-100 bg-fire-50/60 p-5 shadow-inner">
+              <section className="rounded-2xl border border-fire-100 bg-fire-50/60 p-5 shadow-inner">
                 <h3 className="text-base font-semibold text-fire-900">
-                  What to expect:
+                  What to expect
                 </h3>
                 <ul className="mt-3 space-y-2">
                   <li>• 20-minute consultation with a Clarovate strategist</li>
@@ -64,7 +65,7 @@ export default function GetInTouch() {
                   </li>
                   <li>• Zero obligation—just clarity on your next best move</li>
                 </ul>
-              </div>
+              </section>
               <p>
                 Prefer email? Reach us directly at{' '}
                 <a
@@ -76,12 +77,16 @@ export default function GetInTouch() {
                 .
               </p>
             </div>
-          </div>
+          </article>
 
-          <GetInTouchForm />
-        </div>
+          <aside aria-label="Contact form">
+            <GetInTouchForm />
+          </aside>
+        </section>
       </main>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

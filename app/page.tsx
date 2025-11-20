@@ -13,7 +13,7 @@ import CtaSession from '@/components/cta-session';
 export const metadata: Metadata = {
   title: 'Build Predictable Pipeline for Cybersecurity',
   description:
-    'Clarovate helps cybersecurity marketers build predictable pipeline from the audiences that actually buy. Stop guessing what works. Start turning data and intent into qualified pipeline that proves ROI every month.',
+    'Build predictable pipeline for cybersecurity marketers. Turn data and intent into qualified pipeline that proves ROI every month.',
   keywords: [
     'cybersecurity marketing',
     'demand generation',
@@ -40,21 +40,27 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="max-w-full mx-auto">
-      <SectionHeader />
-      <Banner />
-      <div className="border-t border-fire-200"></div>
-      <TrustSection />
-      <TrustInsights />
-      <PipelineEngine />
-      <div className="border-t border-fire-200"></div>
-      <WhyChooseClarovate />
-      <div className="border-t border-fire-200"></div>
-      <DemandGeneration />
-      <div className="border-t border-fire-200"></div>
-      <ClientTestimonials />
-      <div className="border-t border-fire-200"></div>
-      <CtaSession />
-      <Footer />
+      <header>
+        <SectionHeader />
+      </header>
+      <main>
+        <Banner />
+        <hr className="border-t border-fire-200" />
+        <TrustSection />
+        <TrustInsights />
+        <PipelineEngine />
+        <hr className="border-t border-fire-200" />
+        <WhyChooseClarovate />
+        <hr className="border-t border-fire-200" />
+        <DemandGeneration />
+        <hr className="border-t border-fire-200" />
+        <ClientTestimonials />
+        <hr className="border-t border-fire-200" />
+        <CtaSession />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

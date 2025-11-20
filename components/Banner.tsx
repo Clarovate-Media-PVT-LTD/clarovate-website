@@ -5,9 +5,10 @@ import Image from 'next/image';
 
 export default function Banner() {
   return (
-    <div
+    <section
       className="relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden py-8 md:py-12"
       data-aos="fade-in"
+      aria-labelledby="banner-heading"
     >
       <div className="absolute inset-0 z-0">
         <Image
@@ -24,6 +25,7 @@ export default function Banner() {
       <div className="relative z-20 max-w-auto mx-auto px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-16 text-center max-w-7xl">
         {/* Main Headline */}
         <h1
+          id="banner-heading"
           className="text-xl md:text-2xl lg:text-3xl xl:text-5xl font-bold text-fire-800 mb-4 md:mb-6 lg:mb-8 leading-tight break-words"
           data-aos="fade-up"
           data-aos-delay="100"
@@ -66,6 +68,6 @@ export default function Banner() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

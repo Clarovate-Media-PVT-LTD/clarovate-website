@@ -4,24 +4,32 @@ import React from 'react';
 
 export default function TermsAndPolicies() {
   return (
-    <div className="bg-fire-50 bg-opacity-50 pt-20">
-      <SectionHeader />
-      <div className="blade-bottom-padding-lg">
-        <div className="blade-top-padding-lg blade-bottom-padding-lg w-container max-w-screen-lg ">
-          <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-fire-700 via-fire-800 to-fire-700 font-semibold text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center leading-tight">
-            Terms & policies
-          </h1>
-          <div className="blade-top-padding">
-            <section>
-              <p className="text-base md:text-lg ">
-                At Clarovate, we respect your privacy and are committed to
-                protecting your personal data.
-              </p>
+    <div className="bg-fire-50 bg-opacity-50">
+      <header>
+        <SectionHeader />
+      </header>
+      <main className="blade-bottom-padding-lg">
+        <section className="blade-top-padding-lg blade-bottom-padding-lg w-container max-w-screen-lg">
+          <header className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-fire-700">
+              Compliance
+            </p>
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-fire-700 via-fire-800 to-fire-700 font-semibold text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight">
+              Terms & policies
+            </h1>
+          </header>
+          <article className="blade-top-padding space-y-6 text-base md:text-lg text-gray-800">
+            <p>
+              At Clarovate, we respect your privacy and are committed to
+              protecting your personal data. The summary below highlights how we
+              manage information across our engagements.
+            </p>
 
-              <h4 className="font-semibold pt-6 pb-2">
-                1. Information We Collect
-              </h4>
-              <ul className="list-disc pl-8">
+            <section aria-labelledby="section-1" className="space-y-2">
+              <h2 id="section-1" className="text-xl font-semibold">
+                1. Information we collect
+              </h2>
+              <ul className="list-disc pl-6">
                 <li>
                   <strong>Contact details:</strong> Name, email, and phone
                   number.
@@ -31,33 +39,38 @@ export default function TermsAndPolicies() {
                   website optimization.
                 </li>
               </ul>
+            </section>
 
-              <h4 className="font-semibold pt-6 pb-2">
-                2. How We Use Your Information
-              </h4>
-              <ul className="list-disc pl-8">
+            <section aria-labelledby="section-2" className="space-y-2">
+              <h2 id="section-2" className="text-xl font-semibold">
+                2. How we use your information
+              </h2>
+              <ul className="list-disc pl-6">
                 <li>
-                  To deliver services, improve user experience, and send
-                  updates.
+                  Deliver services, improve user experience, and send updates.
                 </li>
-                <li>
-                  To comply with legal obligations and ensure data security.
-                </li>
+                <li>Comply with legal obligations and ensure data security.</li>
               </ul>
+            </section>
 
-              <h4 className="font-semibold pt-6 pb-2">
-                3. Data Sharing and Protection
-              </h4>
-              <ul className="list-disc pl-8">
+            <section aria-labelledby="section-3" className="space-y-2">
+              <h2 id="section-3" className="text-xl font-semibold">
+                3. Data sharing and protection
+              </h2>
+              <ul className="list-disc pl-6">
                 <li>We never sell your data to third parties.</li>
                 <li>
                   All data is securely stored and transferred in compliance with
                   GDPR and industry standards.
                 </li>
               </ul>
+            </section>
 
-              <h4 className="font-semibold pt-6 pb-2">4. Your Rights</h4>
-              <ul className="list-disc pl-8">
+            <section aria-labelledby="section-4" className="space-y-2">
+              <h2 id="section-4" className="text-xl font-semibold">
+                4. Your rights
+              </h2>
+              <ul className="list-disc pl-6">
                 <li>
                   You can request access, deletion, or modification of your data
                   at any time.
@@ -74,10 +87,12 @@ export default function TermsAndPolicies() {
                 </li>
               </ul>
             </section>
-          </div>
-        </div>
-      </div>
-      <Footer />
+          </article>
+        </section>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
