@@ -13,7 +13,7 @@ import CtaSession from '@/components/cta-session';
 export const metadata: Metadata = {
   title: 'Build Predictable Pipeline for Cybersecurity',
   description:
-    'Clarovate helps cybersecurity marketers build predictable pipeline from the audiences that actually buy. Stop guessing what works. Start turning data and intent into qualified pipeline that proves ROI every month.',
+    'Build predictable pipeline for cybersecurity marketers. Turn data and intent into qualified pipeline that proves ROI every month.',
   keywords: [
     'cybersecurity marketing',
     'demand generation',

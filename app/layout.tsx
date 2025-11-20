@@ -2,10 +2,16 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import 'aos/dist/aos.css';
 import { AosInitializer } from '@/components/aos-initializer';
+import { AosStyles } from '@/components/aos-styles';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  variable: '--font-inter',
+  fallback: ['system-ui', 'arial'],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -13,7 +19,7 @@ export const metadata: Metadata = {
     template: '%s | Clarovate',
   },
   description:
-    'Clarovate helps cybersecurity marketers build predictable pipeline from the audiences that actually buy. Stop guessing what works. Start turning data and intent into qualified pipeline that proves ROI every month.',
+    'Build predictable pipeline for cybersecurity marketers. Turn data and intent into qualified pipeline that proves ROI every month.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
@@ -80,6 +86,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <AosStyles />
         <AosInitializer />
         {children}
       </body>
